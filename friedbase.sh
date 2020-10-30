@@ -11,9 +11,9 @@ else
 fi
 
 if [ ! -d ${dir} ]
-    then
-        printf "[!] Directory not found."
-        exit 1
+then
+    printf "[!] Directory not found."
+    exit 1
 fi
 
 printf "[i] Looking for firebaseio.com URLs... (directory: ${dir})\n\n"
